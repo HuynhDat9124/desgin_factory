@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Linq;
+
+namespace DPM225412_HuynhTruongPhatDat_Pattern08_Composite
+{
+    /// <summary>
+    /// The 'Composite' class
+    /// </summary>
+    public class Composite : Component
+    {
+        List<Component> children = new List<Component>();
+
+        // Constructor
+        public Composite(string name)
+            : base(name)
+        {
+        }
+
+        public override void Add(Component component)
+        {
+            children.Add(component);
+        }
+
+        public override void Remove(Component component)
+        {
+            children.Remove(component);
+        }
+
+        public override void Display(int depth)
+        {
+            Console.WriteLine(new string('-', depth) + name);
+
+            // Recursively display child nodes
+            foreach (Component component in children)
+            {
+                component.Display(depth + 2);
+            }
+        }
+    }
+}
