@@ -84,7 +84,11 @@ Template Method
 Real Template Method
 <img width="1280" height="1024" alt="RealTemplateMethod" src="https://github.com/user-attachments/assets/31c2125c-d6a9-4b19-9898-ff1f096a3686" />
 
+Visitor
+<img width="1280" height="1024" alt="image" src="https://github.com/user-attachments/assets/5dbc6963-6456-4339-b9a9-8d3e1146a851" />
 
+Real Visitor
+<img width="1280" height="1024" alt="image" src="https://github.com/user-attachments/assets/1cdc37b5-5a18-4b10-94ea-e3beeea8c2bc" />
 
 
 
