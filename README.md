@@ -10,3 +10,7 @@ MyReal01 kết quả sau khi chạy
 
 Real01 kết quả sau khi chạy
 <img width="1280" height="1024" alt="AbstractFactoryPatter01" src="https://github.com/user-attachments/assets/1265a356-c3ca-40b6-ab76-39d19798902a" />
+
+
+Flyweight
+<img width="1280" height="1024" alt="Flyweight" src="https://github.com/user-attachments/assets/6166e899-8ca2-4dc4-8bb2-3e263ee3c2bf" />
